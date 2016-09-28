@@ -1,0 +1,27 @@
+{
+  "name": "issue-test",
+  "version": "0.0.1",
+  "description": "Testing issue creation w/ node",
+  "main": "index.js",
+  "scripts": {
+    "start": "env $(cat .env) node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "issue-test": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goodwid/issue-test.git"
+  },
+  "author": "David Goodwin <goodwid@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goodwid/issue-test/issues"
+  },
+  "homepage": "https://github.com/goodwid/issue-test#readme",
+  "dependencies": {
+    "preferences": "^0.2.1",
+    "superagent": "^2.3.0"
+  }
+}
